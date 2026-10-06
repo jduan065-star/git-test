@@ -1,0 +1,57 @@
+# ---- 依赖目录 ----
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ---- 构建 / 打包产物 ----
+dist/
+build/
+target/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ---- 日志与临时文件 ----
+*.log
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ---- 密钥与本地配置（务必不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets/
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.iml
+
+# ---- 操作系统文件 ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---- WorkBuddy 本地数据（机器相关，不应上传）----
+.workbuddy/
